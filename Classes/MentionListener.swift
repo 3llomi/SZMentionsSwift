@@ -155,7 +155,7 @@ public class MentionListener: NSObject {
         self.hideMentions = hideMentions
         self.didHandleMentionOnReturn = didHandleMentionOnReturn
         self.showMentionsListWithString = showMentionsListWithString
-        self.mentionsTextView.typingAttributes = self.defaultTextAttributes.dictionary
+        //self.mentionsTextView.typingAttributes = self.defaultTextAttributes.dictionary
         super.init()
         mentionsTextView.delegate = self
     }
